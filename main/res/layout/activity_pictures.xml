@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonBack2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCat0"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat0" />
+
+    <ImageView
+        android:id="@+id/imageViewCat1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCat0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat1" />
+
+    <ImageView
+        android:id="@+id/imageViewCat2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat0"
+        app:srcCompat="@drawable/cat2" />
+
+    <ImageView
+        android:id="@+id/imageViewCat3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCat2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat1"
+        app:srcCompat="@drawable/cat3" />
+
+    <ImageView
+        android:id="@+id/imageViewCat4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat2"
+        app:srcCompat="@drawable/cat4" />
+
+    <ImageView
+        android:id="@+id/imageViewCat5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCat4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat3"
+        app:srcCompat="@drawable/cat5" />
+
+    <ImageView
+        android:id="@+id/imageViewCat6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat4"
+        app:srcCompat="@drawable/cat6" />
+
+    <ImageView
+        android:id="@+id/imageViewCat7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCat6"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat5"
+        app:srcCompat="@drawable/cat7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
